@@ -1,0 +1,12 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "no-restricted-syntax": [
+      "error",
+      {
+        "selector": "JSXAttribute[name.name='className'] Literal[value=/text-\\[[\\d.]+px\\]/]",
+        "message": "استخدم مقياس الخطوط الافتراضي في Tailwind بدل text-[Npx]."
+      }
+    ]
+  }
+}
